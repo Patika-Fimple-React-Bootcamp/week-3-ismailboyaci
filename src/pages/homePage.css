@@ -1,0 +1,28 @@
+/* HomePage.css */
+
+.homepage-container {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+  text-align: center;
+  padding: 20px;
+}

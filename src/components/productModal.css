@@ -1,0 +1,33 @@
+.product-modal-image-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.product-modal-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.product-modal-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-group:not(:last-child) input{
+    width: 70%;
+}
+
+.modal-group input {
+    text-align: end;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
